@@ -461,7 +461,7 @@ hr {
 .post .center-section .post1-center-text {
   height: 10vh;
   padding: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: grey;
   line-height: 17px;
 }
@@ -474,7 +474,7 @@ hr {
 }
 .post .center-section .post1-center-img .postimg1 {
   height: 40vh;
-  width: 94%;
+  width: 21rem;
   border-radius: 10px;
 }
 .bottom-section {
@@ -490,6 +490,7 @@ hr {
   justify-content: space-around;
 }
 .left-bottom-section .button {
+  margin-left: 15px;
   display: flex;
   align-items: center;
 }
@@ -557,5 +558,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .post1-center-text h5 {
   }
 }
