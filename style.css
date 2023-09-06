@@ -474,7 +474,7 @@ hr {
 }
 .post .center-section .post1-center-img .postimg1 {
   height: 40vh;
-  width: 21rem;
+  width: 90%;
   border-radius: 10px;
 }
 .bottom-section {
@@ -515,6 +515,79 @@ hr {
   transform: rotate(90deg);
   height: 15px;
 }
+
+/* code of main right section */
+.upper-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+.upper-right h4 {
+  color: grey;
+  font-weight: 800;
+}
+.upper-right h5 {
+  color: #1877f2;
+}
+.main-right-content {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+.create-calender {
+  border-radius: 0px 0px 10px 8px;
+  margin-left: 22px;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+.calender-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+  width: 100%;
+}
+.calender-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 0px 0px 10px 8px;
+  height: 40%;
+  width: 100%;
+  background-color: #1877f2;
+}
+.calender-details {
+  margin-left: 10px;
+}
+.calender-details h5 {
+  color: #1877f2;
+}
+.calender-details h6 {
+  color: grey;
+}
+.calender-details h3 {
+  letter-spacing: 2px;
+  color: grey;
+  font-weight: 900;
+}
+
+.calender-details .small-details {
+  display: flex;
+  align-items: center;
+}
+.calender-details .small-details img {
+  height: 20px;
+  width: 15px;
+}
+.small-details img {
+  margin-right: 5px;
+}
+
 /* adding media quari */
 
 @media only screen and (max-width: 600px) {
@@ -558,6 +631,9 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .post .center-section .post1-center-img .postimg1 {
+    width: 23rem;
   }
   .post1-center-text h5 {
   }
